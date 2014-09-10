@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+	<title>Cafe Store</title>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	 <div class="container" style="color:#4863A0">
+
+	<div>
+
+        <h1>
+    		<div class="row">
+    			<div class="col-lg-4">Java Cafe</div>
+	      </div>
+        </h1>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12">
+				<form role="form" method="post" action="build">
+				
+					Please select one or more items
+					<div class="checkbox">
+						<label> <input type="checkbox" name="items" value="coffee"> Coffee $2.00
+						</label>
+					</div>
+					<div class="checkbox">
+						<label> <input type="checkbox" name="items" value="cheese_cake"> Cheese Cake $2.00
+						</label>
+					</div>
+					<div class="checkbox">
+						<label> <input type="checkbox" name="items" value="donut"> Donut $1.00
+						</label>
+					</div>
+					<div class="checkbox">
+						<label> <input type="checkbox" name="items" value="sandwich"> Sandwich $5.00
+						</label>
+					</div>
+					<div class="checkbox">
+						<label> <input type="checkbox" name="items" value="tea"> Tea $1.00
+						</label>
+					</div>
+					Tax Rate
+					<div class="row">
+						<div class="col-lg-2">
+							<select class="form-control" name="tax">
+							  <option value="7">7%</option>
+							  <option value="8" >8%</option>
+							  <option value="9"selected="selected">9%</option>
+							</select>
+						</div>
+					</div>
+					
+					<br>
+					<button type="submit" class="btn btn-default">Order</button>
+				</form>
+
+			</div>
+		</div>
+		
+		<br>
+
+	</div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
